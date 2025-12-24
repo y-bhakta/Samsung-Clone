@@ -46,37 +46,6 @@ Key goals:
 - Plain JavaScript (`assets/app.js`)
 - Static JSON data (`products.json`)
 
-## Getting Started
-
-Prerequisites:
-
-- A modern browser (Chrome, Edge, Firefox, Safari)
-- A static file server for best local parity (recommended)
-
-To preview locally, run a simple static server in the project root.
-
-Using Python 3.x:
-
-```bash
-python -m http.server 8000
-# then open http://localhost:8000 in your browser
-```
-
-Using Node (http-server):
-
-```bash
-npm install -g http-server
-http-server -p 8000
-# then open http://localhost:8000
-```
-
-Or simply open `index.html` in your browser (some features may require a server).
-
-## Usage
-
-- Open the site root (e.g., `http://localhost:8000`) and navigate the homepage.
-- Product data is loaded from `products.json`. Modify that file to add, remove, or edit products.
-- Styles are under `assets/css/` and scripts under `assets/js/`.
 
 ## Project Structure
 
@@ -171,3 +140,4 @@ Let me know which of the above you'd like me to do next.
 
 ## Live Demo
 
+https://samsung-clone-gamma.vercel.app/
