@@ -1,0 +1,52 @@
+[
+    {
+        "image":"../assets/img/rm-1.avif",
+        "name":"12 kg/7 kg Front Load Washer Dryer Combo...",
+        "price":"₹ 67990.00"
+    },
+    {
+        "image":"../assets/img/rm-2.avif",
+        "name":"Galaxy Z Fold7",
+        "price":"₹ 186999.00"
+    },
+    {
+        "image":"../assets/img/rn-3.webp",
+        "name":"Galaxy Watch8(Bluetooth,4.0 cm)",
+        "price":"₹ 32999.00"
+    },
+    {
+        "image":"../assets/img/rm-4.avif",
+        "name":"8.0 kg Ecobubble<sup>TM</sup>Top Load Washing Machine",
+        "price":"₹ 19990.00"
+    },  
+    {
+        "image":"../assets/img/rm-5.avif",
+        "name":"Galaxy S24 Ultra",
+        "price":"₹ 97999.00"
+    },
+    {
+        "image":"../assets/img/rm-6.avif",
+        "name":"1.38m (55) QLED Q8F 4K Samsung Vision A...",
+        "price":"₹ 71990.00"
+    },
+    {
+        "image":"../assets/img/rm-7.avif",
+        "name":"Galaxy Z Filp7",
+        "price":"₹ 109999.00"
+    },
+    {
+        "image":"../assets/img/rm-2.avif",
+        "name":"Galaxy Z Fold7",
+        "price":"₹ 186999.00"
+    },
+    {
+        "image":"../assets/img/rm-4.avif",
+        "name":"8.0 kg Ecobubble<sup>TM</sup>Top Load Washing Machine",
+        "price":"₹ 19990.00"
+    },
+    {
+        "image":"../assets/img/rn-3.webp",
+        "name":"Galaxy Watch8(Bluetooth,4.0 cm)",
+        "price":"₹ 32999.00"
+    }
+]

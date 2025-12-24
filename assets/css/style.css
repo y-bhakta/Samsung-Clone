@@ -1,0 +1,471 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+    background-color: #F7F7F7;
+}
+
+a {
+    text-decoration: none;
+}
+
+.f-15 {
+    font-size: 15px;
+}
+
+.hide {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+main {
+    overflow: hidden !important;
+}
+
+/* header start */
+header {
+    z-index: 999;
+}
+
+.menu li a {
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.searchheader {
+    border: 1px solid white;
+    padding: 5px 10px;
+    width: 100%;
+    background-color: #F7F7F7;
+}
+
+.searchheader:hover {
+    border: 1px dotted black;
+    background-color: #fff;
+}
+
+header .icon ul li .dropdown {
+    position: absolute;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    transition: 0.5s;
+    right: 0;
+    top: 90px;
+    padding: 15px 30px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dropdown ol li a {
+    font-size: 15px !important;
+}
+
+header .icon ul li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+
+.support-text:hover {
+    color: blue !important;
+    border-bottom: 1px solid blue;
+}
+
+.th:hover {
+    color: rgb(165, 164, 164) !important;
+}
+
+header .support ul li .dropdown {
+    position: absolute;
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    right: 0;
+    top: 115px;
+    padding: 15px 30px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+header .support ul li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+
+header .support ul li .dropdown ol li a {
+    font-size: 15px !important;
+}
+
+.supportbg {
+    background-color: #F7F7F7;
+}
+
+header .menu ul li .dropdown {
+    position: absolute;
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    right: 0;
+    top: 115px;
+    padding: 15px 30px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+header .menu ul li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+
+header .menu ul li .dropdown p {
+    font-size: 12.5px !important;
+    font-weight: 500;
+}
+
+header .menu ul li .dropdown a:hover img {
+    transform: scale(1.05);
+}
+
+header .menu ul li:hover a {
+    color: blue !important;
+}
+
+header .menu ul li:hover {
+    border-bottom: 1px solid blue;
+}
+
+.shop {
+    width: 14.2%;
+    text-align: center;
+}
+
+.sliderh {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.slideh {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.canvasslideh {
+    border: 2px dotted black;
+    padding: 5px 10px;
+}
+
+/* header End */
+/* banner Sttart */
+.sec-bannner {
+    overflow: hidden;
+}
+
+.bannersm {
+    background-image: url('../img/banner-sm.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    background-color: #F7F7F7;
+    margin-top: -50px !important;
+}
+
+.banbtn {
+    padding: 5px 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-left: 12px;
+    z-index: 99;
+}
+
+.z-99 {
+    z-index: 99;
+}
+
+.banbtn:hover {
+    color: white;
+    background-color: black;
+}
+
+.bannerbtn {
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    top: 60%;
+    left: 55%;
+}
+
+/* banner End */
+/* School Stand Out Start */
+.schoolcontent {
+    position: absolute;
+    height: 400px;
+    width: 350px;
+    top: 40%;
+    left: 5%;
+}
+
+.schoolcontent .title {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: normal;
+    margin-bottom: 15px !important;
+}
+
+.schoolcontent p {
+    font-size: 28px;
+}
+
+.schoolimg {
+    height: 730px;
+    width: 100%;
+    object-fit: cover !important;
+}
+
+.banbtn1 {
+    padding: 5px 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.banbtn1:hover {
+    color: white;
+    background-color: black;
+}
+
+/* School Stand Out End */
+/* Galaxy 4 Start */
+.banbtn2 {
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition: 0.5s;
+    scroll-behavior: smooth;
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+}
+
+.fourhead {
+    position: absolute;
+    top: 0;
+}
+
+.btnbuy {
+    position: absolute;
+    bottom: 0;
+}
+
+.hovercon {
+    padding: 0px 10px;
+}
+
+.hovercon:hover a img {
+    transform: scale(1.1);
+}
+
+.hovercon:hover .banbtn2 {
+    opacity: 1;
+    visibility: visible;
+    top: -15px;
+}
+
+.hovercon h3 {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+/* Galaxy 4 End */
+/* TV Sec Start */
+.tvsec {
+    background-image: url('../img/tvsectionbanner.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 750px;
+    width: 100%;
+}
+
+.tvsecbtn {
+    border: 1px solid black;
+    background-color: #fff;
+    color: black;
+    padding: 5px 15px;
+    transition: 0.5s;
+}
+
+.tvsecbtn:hover {
+    color: white;
+    background-color: black;
+}
+
+.tvsechead {
+    font-size: 50px;
+}
+
+/* TV Sec End */
+/* WM Sec Start */
+.wmsec {
+    background-image: url('../img/wmbanner.avif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 750px;
+    width: 100%;
+}
+
+.wmsecbtn {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    transition: 0.5s;
+}
+
+.wmsecbtn:hover {
+    color: black;
+    background-color: white;
+}
+
+/* WM Sec End */
+/* S25 Start */
+.uh {
+    transition: 1s;
+    color: black;
+}
+
+.uh:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.s25btn {
+    padding: 10px 25px;
+    border: 1px solid black;
+    font-size: 13px;
+    background-color: transparent;
+    transition: 1s;
+}
+
+.s25btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.top-25 {
+    top: 25%;
+}
+
+/* S25 End */
+/* Recommended Slider Start */
+.pro-img {
+    background-color: #F7F7F7;
+    padding: 40px 0px;
+    border-radius: 10px;
+}
+
+.pro-img a img {
+    transition: 0.5s;
+}
+
+.pro-img a img:hover {
+    transform: scale(1.05);
+}
+
+#progress-bar-slider-1 {
+    height: 2.5px;
+    background-color: rgb(190, 190, 190);
+    width: 100%;
+    border-radius: 20px;
+}
+
+#progress-bar-slider {
+    height: 100%;
+    background-color: rgb(46, 45, 45);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.slider-btn {
+    border: 1px solid lightgray;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.pros {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Recommended Slider End */
+/* Explore Stories Start */
+.explore img {
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.explore:hover img {
+    transform: scale(1.05);
+}
+
+.exsto {
+    transition: 0.5s;
+    padding: 0px 10px;
+    overflow: hidden;
+}
+
+#progress-bar-slider-2 {
+    height: 2.5px;
+    background-color: rgb(190, 190, 190);
+    width: 100%;
+    border-radius: 20px;
+}
+
+#progress-bar-slider2 {
+    height: 100%;
+    background-color: rgb(46, 45, 45);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.exsto-parent{
+    height: 300px;
+}
+
+/* Explore Stories End */
+/* Footer Start */
+.footer-border{
+    border: 1px solid #c2bfbf;
+}
+.footer-a{
+    font-size: 14px;
+    color: rgb(31, 30, 30);
+}
+.footer-a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+/* Footer End */

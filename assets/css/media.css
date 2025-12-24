@@ -1,0 +1,328 @@
+@media(max-width:575px) {
+
+    .footer-col{
+        width: 50%;
+    }
+
+    .bannerbtn {
+        top: 25% !important;
+        left: 30% !important;
+    }
+
+    .schoolcontent {
+        position: absolute;
+        height: 400px;
+        width: 270px !important;
+        top: 5% !important;
+        left: 22.5% !important;
+    }
+
+    .schoolcontent .title {
+        font-size: 33px !important;
+        font-weight: 700;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: normal;
+        margin-bottom: 15px !important;
+        text-align: center !important;
+    }
+
+    .schoolcontent p {
+        font-size: 20px !important;
+        font-weight: 500 !important;
+        text-align: center !important;
+    }
+
+    .schoolimg {
+        height: 447px !important;
+        width: 100%;
+    }
+
+    .banbtn1div {
+        text-align: center !important;
+    }
+
+    .tvsec2 {
+        background-image: url('../img/tvsectionbannersm.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 500px;
+        width: 100%;
+        background-position: center;
+    }
+
+    .wmsec2 {
+        background-image: url('../img/wmbannersm.avif');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 500px;
+        width: 100%;
+        background-position: center;
+        background-color: black;
+    }
+}
+
+@media(min-width:576px) {
+
+    .footer-col{
+        width: 50%;
+    }
+
+    .tvsec {
+        background-image: url('../img/tvsectionbanner.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 350px !important;
+        width: 100%;
+        background-position: right !important;
+    }
+
+    .tvsechead {
+        font-size: 30px !important;
+    }
+
+    .wmsec {
+        background-image: url('../img/tvsectionbanner.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 350px !important;
+        width: 100%;
+        background-position: left !important;
+        background-color: black !important;
+    }
+
+    .wmsechead {
+        font-size: 30px !important;
+    }
+
+    .bannerbtn {
+        top: 25% !important;
+        left: 32% !important;
+    }
+
+    .schoolcontent {
+        position: absolute;
+        height: 400px;
+        width: 270px !important;
+        top: 5% !important;
+        left: 35% !important;
+    }
+
+    .schoolcontent .title {
+        font-size: 33px !important;
+        font-weight: 700;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: normal;
+        margin-bottom: 15px !important;
+    }
+
+    .schoolcontent p {
+        font-size: 20px !important;
+        font-weight: 500 !important;
+    }
+
+    .schoolimg {
+        height: 447px !important;
+        width: 100%;
+    }
+
+    .video {
+        object-fit: contain;
+        margin-top: -50px;
+    }
+}
+
+@media(min-width:768px) {
+
+    .footer-col{
+        width: 33.33%;
+    }
+
+    .tvsec {
+        background-image: url('../img/tvsectionbanner.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 450px !important;
+        width: 100%;
+        background-position: right !important;
+    }
+
+    .tvsechead {
+        font-size: 40px !important;
+    }
+
+    .wmsec {
+        background-image: url('../img/tvsectionbanner.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 450px !important;
+        width: 100%;
+        background-position: left !important;
+        background-color: black !important;
+    }
+
+    .wmsechead {
+        font-size: 40px !important;
+    }
+
+    .videop {
+        height: 525px !important;
+    }
+
+    .video {
+        object-fit: contain !important;
+        margin-top: -60px !important;
+    }
+
+    .bannerbtn {
+        top: 55% !important;
+        left: 55% !important;
+    }
+
+    .schoolcontent {
+        position: absolute;
+        height: 400px !important;
+        width: 270px !important;
+        top: 30% !important;
+        left: 5% !important;
+    }
+
+    .schoolcontent .title {
+        font-size: 33px !important;
+        font-weight: 700;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: normal;
+        margin-bottom: 15px !important;
+    }
+
+    .schoolcontent p {
+        font-size: 20px !important;
+        font-weight: 500 !important;
+    }
+
+    .schoolimg {
+        height: 447px !important;
+        width: 100%;
+    }
+}
+
+@media(min-width:992px) {
+
+    .footer-col{
+        width: 25%;
+    }
+
+    .tvsec {
+        background-image: url('../img/tvsectionbanner.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 500px !important;
+        width: 100%;
+        background-position: right !important;
+    }
+
+    .tvsechead {
+        font-size: 45px !important;
+    }
+
+    .wmsec {
+        background-image: url('../img/tvsectionbanner.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 500px !important;
+        width: 100%;
+        background-position: left !important;
+        background-color: black !important;
+    }
+
+    .wmsechead {
+        font-size: 45px !important;
+    }
+
+    .videop {
+        height: 500px !important;
+    }
+
+    .video {
+        object-fit: cover !important;
+        margin-top: 0px !important;
+    }
+
+    .bannerbtn {
+        top: 60% !important;
+        left: 55% !important;
+    }
+
+    .banner {
+        height: 700px !important;
+    }
+
+    .schoolcontent {
+        position: absolute;
+        height: 400px;
+        width: 350px !important;
+        top: 40% !important;
+        left: 5%;
+    }
+
+    .schoolcontent .title {
+        font-size: 60px !important;
+        font-weight: 700;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: normal;
+        margin-bottom: 15px !important;
+    }
+
+    .schoolcontent p {
+        font-size: 28px !important;
+    }
+
+    .schoolimg {
+        height: 730px !important;
+        width: 100%;
+    }
+}
+
+@media(min-width:1200px) {
+
+    .footer-col{
+        width: 20%;
+    }
+
+    .tvsec {
+        background-image: url('../img/tvsectionbanner.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 600px !important;
+        width: 100%;
+        background-position: right !important;
+    }
+
+    .tvsechead {
+        font-size: 50px !important;
+    }
+
+    .wmsec {
+        background-image: url('../img/tvsectionbanner.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 600px !important;
+        width: 100%;
+        background-position: left !important;
+        background-color: black !important;
+    }
+
+    .wmsechead {
+        font-size: 50px !important;
+    }
+
+    .banner {
+        margin-top: -100px !important;
+    }
+
+    .bannerbtn {
+        top: 60% !important;
+        left: 55% !important;
+    }
+}
+
+@media(min-width:1400px) {}
